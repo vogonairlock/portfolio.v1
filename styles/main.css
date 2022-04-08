@@ -19,6 +19,10 @@ body {
   text-align: justify;
 }
 
+body.home {
+  background-image: transparent;
+}
+
 main {
   min-height: 100vh;
   position: relative;
