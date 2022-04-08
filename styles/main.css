@@ -191,7 +191,7 @@ a#logo {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  background-image: url(./assets/img/nav-moz.png);
+  background-image: url(/assets/img/nav-moz.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
