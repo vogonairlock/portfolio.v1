@@ -82,7 +82,7 @@ p {
 /* fix for mozilla not supporting backdrop-filter */
 @-moz-document url-prefix() { 
   .main-header {
-    background-color: #dbdfd7d3;
+    background-color: #dbdfd7;
   }  
 }
 
@@ -94,13 +94,13 @@ p {
 
 @-moz-document url-prefix() { 
   .nav-container.responsive {
-    background-color: #aeb4aef6;
+    background-color: #aeb4ae;
   }  
 }
 
 @-moz-document url-prefix() { 
   .home .nav-container.responsive {
-    background-color: #6b7065f8;
+    background-color: #6b7065;
   }  
 }
 
