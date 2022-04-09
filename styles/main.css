@@ -8,10 +8,6 @@
   
 
 /* universal */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -20,7 +16,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 0.8em;
   text-align: justify;
-
 }
 
 body.home {

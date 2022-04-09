@@ -15,3 +15,21 @@ function trigger() {
     logo.style.display = "flex";
   }
 }
+
+
+
+const links = document.querySelector("body");
+
+for (const link of links) {
+  link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute("href");
+
+  document.querySelector(href).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
