@@ -17,6 +17,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 0.8em;
   text-align: justify;
+  scroll-behavior: smooth;
 }
 
 body.home {
