@@ -76,29 +76,22 @@ p {
   padding-bottom: 20px;
   z-index: 999;
   background: transparent;
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 
 /* fix for mozilla not supporting backdrop-filter */
-@-moz-document url-prefix() { 
+
+@supports (-moz-appearance:none) {
   .main-header {
     background-color: #dbdfd7;
-  }  
-}
-
-@-moz-document url-prefix() { 
+  }
   .home .main-header {
     background-color: transparent;
   }  
-}
-
-@-moz-document url-prefix() { 
   .nav-container.responsive {
     background-color: #aeb4ae;
   }  
-}
-
-@-moz-document url-prefix() { 
   .home .nav-container.responsive {
     background-color: #6b7065;
   }  
