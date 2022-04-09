@@ -76,7 +76,7 @@ p {
   z-index: 999;
   background: transparent;
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 /* fix for mozilla not supporting backdrop-filter */
