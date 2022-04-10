@@ -257,7 +257,7 @@ a#logo {
 
 /* about: styling */
 
-.about-container {
+#about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,7 +286,7 @@ a#logo {
   line-height: 1.1em;
 }
 
-.about-container .social {
+#about-container .social {
   padding-top: 50px;
 }
   
@@ -298,7 +298,7 @@ a#logo {
 
 /* portfolio: styling */
 
-.portfolio-intro {
+#portfolio-intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -386,7 +386,7 @@ a.p-link {
 
 /* contact: styling */
 
-.contact-container {
+#contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -407,7 +407,7 @@ a.p-link {
   color: #292929;
 }
 
-.contact-container .social {
+#contact-container .social {
   padding-top: 5px;
   padding-bottom: 20px;
 }
@@ -489,7 +489,7 @@ a.p-link {
     font-weight: 400;
   }
   
-  .about-container {
+  #about-container {
     margin-top: 210px;
     margin-bottom: 250px;
   }
@@ -504,7 +504,7 @@ a.p-link {
     padding-top: 30px;
   }
 
-  .portfolio-intro {
+  #portfolio-intro {
     margin-top: 250px;
     margin-bottom: 250px;
     padding: 0;
@@ -556,7 +556,7 @@ a.p-link {
     text-decoration-color: #e9c4abd5;
   } 
 
-  .contact-container {
+  #contact-container {
     margin-top: 210px;
     margin-bottom: 250px;
   }
@@ -873,7 +873,7 @@ a.p-link {
 
   /* about: styling */
 
-  .about-container {
+  #about-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -910,7 +910,7 @@ a.p-link {
     line-height: 1.1em;
   }
 
-  .about-container .social {
+  #about-container .social {
     padding-top: 50px;
   }
 
@@ -920,7 +920,7 @@ a.p-link {
 
   /* portfolio: styling */
 
-  .portfolio-intro {
+  #portfolio-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1045,7 +1045,7 @@ a.p-link {
 
   /* contact: styling */
 
-  .contact-container {
+  #contact-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1065,7 +1065,7 @@ a.p-link {
     color: #292929;
   }
 
-  .contact-container .social {
+  #contact-container .social {
     padding-top: 5px;
     padding-bottom: 20px;
   }
