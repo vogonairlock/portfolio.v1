@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; form-action 'self'; img-src 'self';">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
+      rel="stylesheet">
     <title>zazcdev.</title>
     <script src="./scripts/index.js"></script>
 </head>
@@ -19,9 +20,9 @@
     <header class="flex">
         <nav class="main-header">   
            <div class="logo-container">
-                <span class="sr-only"><a href="#portfolio">skip to main content</a></span>
+                <div class="sr-only"><a href="#portfolio">skip to main content</a></div>
                 <a href="https://zazcdev.github.io/webportfolio" id="logo">
-                   <span class="sr-only"><h1>website title: zaz c</h1></span>
+                   <div class="sr-only"><h1>website title: zaz c</h1></div>
                    <h1 aria-hidden="true">zazc.</h1>
                </a>
            </div>
@@ -43,7 +44,7 @@
     <main>
         
         <section id="portfolio" class="flex portfolio-container sub-section">
-            <span class="sr-only"><h2 class="portfolio-subhead">freelance: portfolio website design</h2></span>
+            <div class="sr-only"><h2 class="portfolio-subhead">freelance: portfolio website design</h2></div>
   
             <img class="p-img" src="assets/img/portfolioScreenshot.png" alt="screenshot of portfolio project page">
 
