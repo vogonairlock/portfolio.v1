@@ -670,7 +670,7 @@ a.p-link {
   
   @supports (-moz-appearance:none) {
     .main-header {
-      background-color: #dbdfd7;
+      background-color: #f1f0f0;
     }
     .home .main-header {
       background-color: transparent;
