@@ -36,12 +36,6 @@ const btn = document.getElementById('contact-btn');
 
 btn.addEventListener('click', function handleClick(event) {
 
-  event.preventDefault();
-
-  const emailInput = document.getElementById('email');
-  const messageInput = document.getElementById('message');
-
-  // 👇️ clear input field
-  emailInput.value = '';
-  messageInput.value = '';
+  document.getElementById("email").reset(); 
+  document.getElementById("message").reset();
 });

@@ -1,18 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Email: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $senderEmail");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
-    <title>zazcdev.</title>
-    <script src="./scripts/index.js"></script>
+    <meta charset="utf-8">
+    <title>Contact form to email</title>
 </head>
 
 <body class="contact">
@@ -50,7 +56,11 @@
                 <a class="social-link" href="https://github.com/zazcdev">github</a>
             </div>
 
+            
             <div class="form-container">
+
+                <?=$thankYou ?>
+
                 <form action="contact.php" method="POST">
                     <label class="sr-only" for="email">email input</label>
                     <input type="email" name="email" id="email" placeholder="email">
@@ -60,8 +70,8 @@
                     
                     <label class="sr-only" for="submit">submit button</label>
                     <input id="contact-btn" type="submit" value="submit">
-
                 </form>
+                
             </div>
         </section>
     </main>
