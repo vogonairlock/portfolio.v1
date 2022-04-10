@@ -333,10 +333,6 @@ a.pIntro-links {
   line-height: 3em;
 }
 
-.p-img-container {
-
-}
-
 .portfolio-container {
   flex-direction: column;
   justify-content: center;
@@ -350,8 +346,6 @@ a.pIntro-links {
 
 .p-img {
   display: block;
-  width: 330px;
-  height: 430px;
   margin: 0 auto;
   image-rendering: smooth;
   filter: contrast(80%);
@@ -365,19 +359,110 @@ a.pIntro-links {
   display: none;
 }
 
-.p-link-container {  
+  
+.arrow {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 5px;
+  width: 1vw;
+  height: 1vw;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.portfolio-container.sub-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
   margin: 0 auto;
 }
 
-a.p-link {
-  padding: 5px 0 0 0;
-  box-sizing: border-box;
-  font-size: 1.2em;
+.p-link-container.planning {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 70%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-  
+
+.p-link-container.design {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a.p-link {
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+a.p-link.planning {
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+a.p-link.arrows {
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+.p-link-container.development {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a.p-link.development {
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+.pdf {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
@@ -555,6 +640,74 @@ a.p-link {
     text-decoration-line: underline;
     text-decoration-color: #e9c4abd5;
   } 
+
+  .portfolio-container.sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  .p-link-container.planning {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .p-link-container.design {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  a.p-link.planning {
+    padding-left: 30%;
+    padding-right: 0;
+    line-height: 2em;
+    font-size: 1.3em;
+  }
+  
+  a.p-link.arrows {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 2em;
+    font-size: 1.3em;
+  }
+  
+  .p-link-container.development {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  a.p-link.development {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2em;
+    font-size: 1.3em;
+  }
+  
+  .pdf {
+    width: 100%;
+    height: 100%;
+  }
+
 
   #contact-container {
     margin-top: 210px;
@@ -972,72 +1125,113 @@ a.p-link {
     height: 95vh;
   }
 
-  .p-img-container.desktop-overlay {
-    position: relative;
-    width: 40%;
+  .arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    width: 1vw;
+    height: 1vw;
   }
 
-  .p-img-container.desktop-overlay:hover .overlay {
-    opacity: 1;
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 
-  .p-img.desktop-overlay {
-    display: block;
+  .portfolio-container.sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100vh;
     margin: 0 auto;
-    width: 73%;
-    height: auto;
-    image-rendering: smooth;
-    filter: contrast(80%);
   }
 
-  .overlay.desktop-overlay {
-    display: block;
-    position: absolute;
-    top: 6%;
-    bottom: 0;
-    left: 17%;
-    right: 0;
-    width: 65%;
-    height: 74%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #f1f0f0cc;
+  .p-link-container.planning {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
-  .overlay-link.desktop-overlay {
-    display: block;
-    position: relative;
-    margin: 45% auto auto auto;
-    color: #292929;
-    font-size: 1.2em;
-    font-weight: 600;
-    text-align: center;
+  .p-link-container.design {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .p-link-container.desktop {
-    display: none;
+  .p-link-container.development {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
-  a.p-link {
-    padding-left: 20px;
-    padding-right: 20px;
+  a.p-link.planning {
+    padding-left: 75%;
+    padding-right: 10%;
     line-height: 2em;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
-  a.p-link:hover {
-    line-height: 2em;
-    font-size: 1.5em;
-    padding-left: 20px;
-    padding-right: 20px;
+  a.p-link.planning:hover {
+    padding-left: 75%;
+    padding-right: 10%;
     box-sizing: initial;
+    line-height: 2em;
+    font-size: 1.3em;
     color: #000;
-    font-style: normal;
+    font-style: italic;
     font-weight: 500;
     text-decoration-line: underline;
     text-decoration-color: #e9c4abd5;
   } 
+  
+  a.p-link.arrows {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 2em;
+    font-size: 1.3em;
+  }
 
+  a.p-link.arrows:hover {
+    padding-left: 0;
+    padding-right: 0;
+  } 
+
+  .pdf {
+    width: 100%;
+    height: 100%;
+  }
+  
 
 
   
