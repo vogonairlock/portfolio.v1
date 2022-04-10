@@ -18,20 +18,22 @@
 <body class="about">
     <header class="flex">
         <nav class="main-header">
+            <span class="sr-only"><a href="#portfolio">skip to main content</a></span>   
            <div class="logo-container">
                <a href="https://zazcdev.github.io/webportfolio" id="logo">
-                   <h1>zazc.</h1>
+                   <span class="sr-only"><h1>zaz c</h1></span>
+                   <h1 aria-hidden="true">zazc.</h1>
                </a>
            </div>
            
            <ul id="primary-nav" class="nav-container moz-nav">
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio">home</a></li>
+                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/">home</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/about.html">about</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/portfolio.html">portfolio</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/contact.html">contact</a></li>
-            </ul>   
+            </ul>
        
-           <span class="sr-only">Menu</span>
+           
            <a href="javascript:void(0);" id="mobile-toggle" class="menu-icon" onclick="trigger()">
                <i id="icon" class="material-icons md-48">menu</i>
            </a>

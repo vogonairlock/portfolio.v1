@@ -104,15 +104,14 @@ select {
 
 /* Displays alt text for screenreader only */
 .sr-only {
-  position: absolute;
-  width: 1px;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
   height: 1px;
-  padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip-path: fill-box;
-  white-space: nowrap;
-  border: 0;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
-
-

@@ -16,32 +16,42 @@
 </head>
 
 <body>
-    <header class="main-header flex">
-        <nav class="nav-container">
+    <header class="flex">
+        <nav class="main-header">
+            <span class="sr-only"><a href="#business">skip to main content</a></span>   
            <div class="logo-container">
                <a href="https://zazcdev.github.io/webportfolio" id="logo">
-                   <h1>zazc.</h1>
+                   <span class="sr-only"><h1>zaz c</h1></span>
+                   <h1 aria-hidden="true">zazc.</h1>
                </a>
            </div>
-           <ul id="primary-nav" class="one">
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio">home</a></li>
+           
+           <ul id="primary-nav" class="nav-container moz-nav">
+                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/">home</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/about.html">about</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/portfolio.html">portfolio</a></li>
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/contact.html">contact</a></li>
-           </ul>
+            </ul>
+       
+           
+           <a href="javascript:void(0);" id="mobile-toggle" class="menu-icon" onclick="trigger()">
+               <i id="icon" class="material-icons md-48">menu</i>
+           </a>
        </nav>
-
-       <span class="sr-only">Menu</span>
-       <a href="javascript:void(0);" class="menu-icon" onclick="menuToggle()">
-           <i id="icon" class="material-icons md-48">menu</i>
-       </a>
    </header>
 
     <main>
         <section id="business" class="flex portfolio-container">
-            <img class="p-img p-imgHover" src="assets/img/build-template.jpg" alt="stand-in image for portfolio project screenshot">
-            <h2 class="portfolio-subhead"><span class="sr-only">freelance: business</span></h2>
-            <div class="p-link-container">
+            <span class="sr-only"><h2 class="portfolio-subhead">freelance: business website development</h2></span>
+            <div class="p-img-container desktop-overlay">
+                <img class="p-img desktop-overlay" src="assets/img/build-template.jpg" alt="stand-in image for portfolio project screenshot">
+                <div class="overlay desktop-overlay">
+                    <div class="overlay-link desktop-overlay">
+                        <span class="sr-only"><a href="">click me to view business development process</a></span>
+                        <a href="" aria-hidden="true">click to view >></a></div>
+                </div>
+            </div>
+            <div class="p-link-container desktop">
                 <a href="https://zazcdev.github.io/webportfolio/business1planning.html" class="p-link">001. planning</a>
                 <a href="https://zazcdev.github.io/webportfolio/business1design.html" class="p-link">002. design</a>
                 <a href="https://zazcdev.github.io/webportfolio/business1development.html" class="p-link">003. development</a>

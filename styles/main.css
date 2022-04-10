@@ -333,6 +333,10 @@ a.pIntro-links {
   line-height: 3em;
 }
 
+.p-img-container {
+
+}
+
 .portfolio-container {
   flex-direction: column;
   justify-content: center;
@@ -344,13 +348,21 @@ a.pIntro-links {
   display: flex;
 }
 
-.portfolio-img {
+.p-img {
   display: block;
   width: 330px;
   height: 430px;
   margin: 0 auto;
   image-rendering: smooth;
   filter: contrast(80%);
+}
+
+.overlay {
+  display: none;
+}
+
+.overlay-link {
+  display: none;
 }
 
 .p-link-container {  
@@ -650,15 +662,27 @@ a.p-link {
     z-index: 999;
     overflow: hidden;
     background: transparent;
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
   
   /* fix for mozilla not supporting backdrop-filter */
-  @-moz-document url-prefix() { 
+  
+  @supports (-moz-appearance:none) {
     .main-header {
-      background-color: #f1f0f0;
+      background-color: #dbdfd7;
+    }
+    .home .main-header {
+      background-color: transparent;
+    }  
+    .nav-container.responsive {
+      background-color: #aeb4ae;
+    }  
+    .home .nav-container.responsive {
+      background-color: #6b7065;
     }  
   }
+  
   
   .nav-container {
     display: flex;
@@ -865,7 +889,7 @@ a.p-link {
 
   .about-heading {
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     line-height: 1em;
     color: #292929;
     font-size: 5em;
@@ -875,7 +899,7 @@ a.p-link {
     width: 100px;
     height: 100px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     image-rendering: auto;
     border-radius: 50%;
     filter: contrast(75%);
@@ -936,33 +960,62 @@ a.p-link {
 
   .portfolio-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 90%;
-    margin: 30px auto;
+    width: 100%;
+    margin: 0 auto;
   }
 
   #business {
     height: 95vh;
   }
 
-  .portfolio-img {
+  .p-img-container.desktop-overlay {
+    position: relative;
+    width: 40%;
+  }
+
+  .p-img-container.desktop-overlay:hover .overlay {
+    opacity: 1;
+  }
+
+  .p-img.desktop-overlay {
     display: block;
     margin: 0 auto;
-    width: 330px;
-    height: 430px;
+    width: 73%;
+    height: auto;
     image-rendering: smooth;
     filter: contrast(80%);
   }
 
-  .p-link-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
+  .overlay.desktop-overlay {
+    display: block;
+    position: absolute;
+    top: 6%;
+    bottom: 0;
+    left: 17%;
+    right: 0;
+    width: 65%;
+    height: 74%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f1f0f0cc;
+  }
+
+  .overlay-link.desktop-overlay {
+    display: block;
+    position: relative;
+    margin: 45% auto auto auto;
+    color: #292929;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .p-link-container.desktop {
+    display: none;
   }
 
   a.p-link {
@@ -1050,10 +1103,6 @@ a.p-link {
     font-family: 'Work Sans', sans-serif;
   }
 
-  .form-container label {
-    line-height: 0.2em;
-    visibility: hidden;
-  }
 
   .form-container input[type=submit]:hover {
     display: block;
