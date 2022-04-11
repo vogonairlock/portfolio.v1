@@ -22,8 +22,8 @@ aspects of web accessibility (colour contrast especially), it is definitely a wo
 in progress. I have included the .sr-only (screen reader only) class throughout my <br>
 HTML and within my reset.css files in order to hide and display elements as appropriate <br>
 for screen readers, and went through my entire website myself using a screen reader on <br>
-both mobile and desktop and tailored certain elements to read appropriately.<br>
-In addition, I have included reduced-animation media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
+both mobile and desktop and tailored certain elements to read appropriately. In addition, <br>
+I have included reduced-animation media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
 <br>
 <br>
 <br>
