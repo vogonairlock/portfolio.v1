@@ -1,7 +1,7 @@
 <div id="top"></div>
 <div align="center">
   
-# <h1>ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a></h1>
+<h1>ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a></h1>
 <br>
 This is a web portfolio I built for myself using HTML, CSS, and JavaScript. <br>
 No frameworks used, just the plain old fundamentals. <br>
@@ -14,7 +14,7 @@ As of [11/4/2022], this portfolio is still a work in progress. <br>
 <br>
 <br>
 
-## <h2>Notes on Accessibility</h2>
+<h2>Notes on Accessibility</h2>
 
 <br>
 I've designed my portfolio to be accessible, but as I'm still learning about some aspects <br>
@@ -28,7 +28,7 @@ reduced-animation media queries (courtesy of <a href="https://github.com/hankchi
 <br>
 <br>
 
-## <h2>Contact</h2>
+<h2>Contact</h2>
 
 <br>
 Email: zazcdev@gmail.com
@@ -38,7 +38,7 @@ LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a>
 <br>
 <br>
 
-## <h2>Credits</h2>
+<h2>Credits</h2>
 
 <br>
 Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a> via Unsplash.
