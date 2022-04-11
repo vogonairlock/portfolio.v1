@@ -2,9 +2,9 @@
 
 # ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a>
 <br>
-This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, just the <br>
+<p align="center">This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, just the <br>
 plain old fundamentals. As of [11/4/2022], this portfolio is still a work in progress as I currently <br>
-have no projects to display apart from the portfolio itself. 
+have no projects to display apart from the portfolio itself.<p>
 <br>
 <br>
 <br>
@@ -14,12 +14,12 @@ have no projects to display apart from the portfolio itself.
 ## Notes on Accessibility
 
 <br>
-I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility <br> 
+<p align="center">I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility <br> 
 (colour contrast especially), it is definitely a work in progress. I have included the .sr-only (screen reader only) <br> 
 class throughout my HTML and within my reset.css files in order to hide and display elements as appropriate <br>
 for screen readers, and went through my entire website myself using a screen reader on both mobile and <br> 
 desktop and tailored certain elements to read appropriately. In addition, I have included reduced-animation <br> 
-media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
+media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.</p>
 <br>
 <br>
 <br>
