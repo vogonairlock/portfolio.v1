@@ -38,7 +38,7 @@ LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a>
 ## Credits
 
 <br>
-Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a>
+Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a> via Unsplash.
 <br>
 <br>
 
