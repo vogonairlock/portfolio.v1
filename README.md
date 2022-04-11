@@ -15,7 +15,7 @@ I've designed my portfolio to be accessible, but as I'm still learning about som
 it is definitely a work in progress. I have included the .sr-only (screen reader only) class throughout my HTML and within my reset.css files
 in order to hide and display elements as appropriate for screen reader users, and went through my entire website myself using a screen reader 
 on both mobile and desktop and tailored certain elements to read appropriately. In addition, I have included reduced-animation media queries 
-courtesy of [hankchizljaw](https://github.com/hankchizljaw/modern-css-reset).
+(courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw)</a>.
 <br>
 <br>
 <br>
