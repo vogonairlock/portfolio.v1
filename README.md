@@ -31,7 +31,7 @@ Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/w
 <br>
 <br>
 ## Credits
-
+<br>
 [Mobile index page background](https://unsplash.com/@enka80)
 <br>
 <br>
