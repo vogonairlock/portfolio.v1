@@ -35,6 +35,6 @@ Project Link: [https://github.com/zazcdev/webportfolio](https://github.com/zazcd
 [Mobile index page background](https://unsplash.com/@enka80)
 
 [Majority of reset.css file](https://github.com/hankchizljaw/modern-css-reset)
-* sans .sr-only class*
+*sans .sr-only class*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
