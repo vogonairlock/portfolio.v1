@@ -38,4 +38,4 @@ Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/w
 <br>
 [Majority of reset.css file](https://github.com/hankchizljaw/modern-css-reset)  *sans .sr-only class*
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="center">(<a href="#top">back to top</a>)</p>
