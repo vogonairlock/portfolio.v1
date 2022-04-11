@@ -20,7 +20,9 @@ on both mobile and desktop and tailored certain elements to read appropriately. 
 <br>
 <br>
 <br>
+
 ## Contact
+
 <br>
 Email: zazcdev@gmail.com
 <br>
