@@ -43,6 +43,7 @@ Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a> 
 <br>
 
 Majority of reset.css file: <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>
+<br>
 *sans .sr-only class*
 <br>
 <br>
