@@ -31,9 +31,9 @@ Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/w
 <br>
 
 ## Credits
-[Mobile index page background](https://unsplash.com/@enka80)
+Mobile home page background: [@enka80](https://unsplash.com/@enka80)
 <br>
-[Majority of reset.css file](https://github.com/hankchizljaw/modern-css-reset)  *sans .sr-only class*
+Majority of reset.css file: [@hankchizljaw](https://github.com/hankchizljaw/modern-css-reset)  *sans .sr-only class*
 <br>
 <br>
 
