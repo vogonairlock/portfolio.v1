@@ -4,8 +4,8 @@
 # ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a>
 <br>
 This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, <br>
-just the plain old fundamentals. As of [11/4/2022], this portfolio is still a work in progress as I <br>
-currently have no projects to display apart from the portfolio itself.
+just the plain old fundamentals. As of [11/4/2022], this portfolio is still a work in progress as <br> 
+I currently have no projects to display apart from the portfolio itself.
 <br>
 <br>
 <br>
