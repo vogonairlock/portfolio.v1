@@ -23,7 +23,8 @@ on both mobile and desktop and tailored certain elements to read appropriately. 
 
 ## Contact
 <br>
-<a href="https://www.linkedin.com/in/zazcdev/">linkedin</a> - zazcdev@gmail.com
+Email: zazcdev@gmail.com
+LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a> 
 <br>
 <br>
 <br>
