@@ -1,6 +1,7 @@
 <div id="top"></div>
 
 # ZAZCDEV: Web Portfolio
+<br>
 This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, just the plain old fundamentals. 
 
 As of [11/4/2022], this portfolio is still a work in progress as I currently have no projects to display apart from the portfolio itself. 
@@ -22,6 +23,7 @@ on both mobile and desktop and tailored certain elements to read appropriately. 
 <br>
 
 ## Contact
+<br>
 Eliza: [LinkedIn](https://www.linkedin.com/in/zazcdev/) - zazcdev@gmail.com
 
 Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/webportfolio/)
@@ -31,6 +33,7 @@ Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/w
 <br>
 
 ## Credits
+<br>
 Mobile home page background: [@enka80](https://unsplash.com/@enka80)
 <br>
 <br>
