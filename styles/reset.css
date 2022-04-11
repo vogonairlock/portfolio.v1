@@ -47,8 +47,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
 }
+
 
 /* Make images easier to work with */
 img,
@@ -82,27 +82,8 @@ select {
 
 }
 
-/*                 */
-/* utility classes */
-/*                 */
 
-.flex {
-  display: flex;
-  gap: var(--gap, 1rem);
-}
-
-.grid {
-  display: grid;
-  gap: var(--gap, 1rem);
-}
-
-.container {
-  padding-inline: 2em;
-  margin-inline: auto;
-  max-width: 80rem;
-}
-
-/* Displays alt text for screenreader only */
+/* custom */
 .sr-only {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -115,3 +96,4 @@ select {
   width: 1px;
   word-wrap: normal !important;
 }
+
