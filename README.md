@@ -1,10 +1,10 @@
 <div id="top"></div>
-
+<div align="center">
 # ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a>
 <br>
-<p align="center">This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, <br>
-just the plain old fundamentals. As of [11/4/2022], this portfolio is still a work in progress as I currently <br>
-have no projects to display apart from the portfolio itself.<p>
+This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No frameworks used, <br>
+just the plain old fundamentals. As of [11/4/2022], this portfolio is still a work in progress as I <br>
+currently have no projects to display apart from the portfolio itself.
 <br>
 <br>
 <br>
@@ -14,12 +14,12 @@ have no projects to display apart from the portfolio itself.<p>
 ## Notes on Accessibility
 
 <br>
-<p align="center">I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility <br> 
+I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility <br> 
 (colour contrast especially), it is definitely a work in progress. I have included the .sr-only (screen reader only) <br> 
 class throughout my HTML and within my reset.css files in order to hide and display elements as appropriate <br>
 for screen readers, and went through my entire website myself using a screen reader on both mobile and <br> 
 desktop and tailored certain elements to read appropriately. In addition, I have included reduced-animation <br> 
-media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.</p>
+media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
 <br>
 <br>
 <br>
@@ -53,4 +53,5 @@ Majority of reset.css file: <a href="https://github.com/hankchizljaw/modern-css-
 <br>
 <br>
 <br>
-<p align="center">(<a href="#top">back to top</a>)</p>
+(<a href="#top">back to top</a>)
+</div>
