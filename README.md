@@ -26,8 +26,6 @@ on both mobile and desktop and tailored certain elements to read appropriately. 
 Eliza: [LinkedIn](https://www.linkedin.com/in/zazcdev/) - zazcdev@gmail.com
 
 Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/webportfolio/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 <br>
 <br>
 <br>
