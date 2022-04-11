@@ -31,11 +31,3 @@ function clickHandler(e) {
     behavior: 'smooth'
   });
 }
-
-const btn = document.getElementById('contact-btn');
-
-btn.addEventListener('click', function handleClick(event) {
-
-  document.getElementById("email").reset(); 
-  document.getElementById("message").reset();
-});
