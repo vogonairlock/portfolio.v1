@@ -15,7 +15,7 @@ This is a web portfolio I built for myself using HTML, CSS, and JavaScript. No f
 I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility (colour contrast especially), <br>
 it is definitely a work in progress. I have included the .sr-only (screen reader only) class throughout my HTML and within my reset.css <br>
 files in order to hide and display elements as appropriate for screen reader users, and went through my entire website myself using a <br>
-screen reader on both mobile and desktop and tailored certain elements to read appropriately. In addition, I have included 
+screen reader on both mobile and desktop and tailored certain elements to read appropriately. In addition, I have included <br>
 reduced-animation media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
 <br>
 <br>
