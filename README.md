@@ -21,7 +21,7 @@ I've designed my portfolio to be accessible, but as I'm still learning about som
 
 Eliza: [LinkedIn](https://www.linkedin.com/in/zazcdev/) - zazcdev@gmail.com
 
-Portfolio: [https://github.com/zazcdev/webportfolio](https://github.com/zazcdev/webportfolio)
+Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/webportfolio/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
