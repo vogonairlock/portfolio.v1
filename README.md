@@ -19,9 +19,9 @@ I've designed my portfolio to be accessible, but as I'm still learning about som
 
 ## Contact
 
-Eliza - [LinkedIn](https://www.linkedin.com/in/zazcdev/) - zazcdev@gmail.com
+Eliza: [LinkedIn](https://www.linkedin.com/in/zazcdev/) - zazcdev@gmail.com
 
-Project Link: [https://github.com/zazcdev/webportfolio](https://github.com/zazcdev/webportfolio)
+Portfolio: [https://github.com/zazcdev/webportfolio](https://github.com/zazcdev/webportfolio)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
