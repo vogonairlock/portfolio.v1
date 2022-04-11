@@ -38,8 +38,6 @@ Portfolio: [https://zazcdev.github.io/webportfolio/](https://zazcdev.github.io/w
 
 [Mobile index page background](https://unsplash.com/@enka80)
 <br>
-[Majority of reset.css file](https://github.com/hankchizljaw/modern-css-reset)
-
-(*sans .sr-only class*)
+[Majority of reset.css file](https://github.com/hankchizljaw/modern-css-reset)  *sans .sr-only class*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
