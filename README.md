@@ -12,6 +12,7 @@ As of [11/4/2022], this portfolio is still a work in progress as I currently hav
 <br>
 
 ## Notes on Accessibility
+<br>
 I've designed my portfolio to be accessible, but as I'm still learning about some aspects of web accessibility (colour contrast especially), 
 it is definitely a work in progress. I have included the .sr-only (screen reader only) class throughout my HTML and within my reset.css files
 in order to hide and display elements as appropriate for screen reader users, and went through my entire website myself using a screen reader 
