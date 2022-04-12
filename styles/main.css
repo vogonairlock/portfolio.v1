@@ -211,19 +211,8 @@ a#logo {
 
 #landing-animation:after {
   content:"";
-  -webkit-animation: landing-animation 6s linear 1 forwards;
   animation: landing-animation 6s linear 1 forwards;
 }
-
-@-webkit-keyframes landing-animation {
-  0% { content:"Hello !";}
-  25% { content:"My name is Eliza.";}
-  45% { content: "I'm a front-end developer.";}
-  65% { content: "Check out my portfolio below:";}
-  85% { content: "and then...";}
-  100% { content: "hire me !";}
-}
-
 
 @keyframes landing-animation {
   0% { content:"Hello !";}
