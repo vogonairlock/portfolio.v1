@@ -916,6 +916,11 @@ a.p-link {
     animation: none
   }
 
+  .button::after {
+    margin: 200px 0 0 0;
+    display: inline-block;
+    position: absolute;
+  }
 
   .button:before {
     background: #cc8b8b;
