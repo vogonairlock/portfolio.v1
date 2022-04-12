@@ -753,7 +753,7 @@ a.p-link {
     padding-bottom: 0;
     z-index: 999;
     overflow: hidden;
-    background: transparent;
+    background-color: #e7ece9;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
   }
@@ -762,16 +762,16 @@ a.p-link {
   
   @supports (-moz-appearance:none) {
     .main-header {
-      background-color: #f1f0f0;
+      background-color: #e7ece9;
     }
     .home .main-header {
-      background-color: transparent;
+      background-color: #e7ece9;
     }  
-    .nav-container.responsive {
-      background-color: #aeb4ae;
+    .nav-container {
+      background-color: #e7ece9;
     }  
-    .home .nav-container.responsive {
-      background-color: #6b7065;
+    .home .nav-container {
+      background-color: #e7ece9;
     }  
   }
   
