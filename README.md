@@ -45,9 +45,7 @@ Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a> 
 <br>
 <br>
 
-Majority of reset.css file: <a href="https://github.com/hankchizljaw/modern-css-reset">@hankchizljaw</a>
-<br>
-*sans .sr-only class*
+reset.css file: <a href="https://github.com/hankchizljaw/modern-css-reset">@hankchizljaw</a>
 <br>
 <br>
 <br>
