@@ -964,11 +964,12 @@ body.contact {
 
 
   /* portfolio: styling */
-  .portfolio .main-header {
+  body.portfolio {
     background-image: none;
+    background-color: #ececec;
   }
 
-  body.portfolio {
+  .portfolio .main-header {
     background-image: none;
   }
 
