@@ -18,9 +18,12 @@
 
 <body class="contact">
     <header class="flex">
+
         <nav class="main-header" id="main-heading">   
+
            <div class="logo-container">
                 <div class="sr-only"><a href="#contact-container">skip to main content</a></div>
+
                 <a href="https://zazcdev.github.io/webportfolio" id="logo">
                    <div class="sr-only"><h1>website title: zaz c</h1></div>
                    <h1 aria-hidden="true">z.</h1>
@@ -29,8 +32,11 @@
            
            <ul id="primary-nav" class="nav-container moz-nav">
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/">home</a></li>
+
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/about.html">about</a></li>
+
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/portfolio.html">portfolio</a></li>
+
                 <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/contact.html">contact</a></li>
             </ul>
        
@@ -38,34 +44,44 @@
             <a href="javascript:void(0);" id="mobile-toggle" class="menu-icon" onclick="trigger()">
                 <i id="icon" class="material-icons md-48">menu</i>
             </a>
+
        </nav>
     </header>
     
     <main>
         <section id="contact-container">
+
             <h2 class="contact-heading">contact</h2>
-            
+
             <div class="social">
                 <a class="social-link" href="assets/pdfs/zazcdevResume.pdf">resume</a>
+
                 <a class="social-link" href="https://www.linkedin.com/in/zazcdev/">linkedin</a>
+
                 <a class="social-link" href="https://github.com/zazcdev">github</a>
             </div>
 
-            <div class="form-container">
-                <form action="https://formspree.io/f/xwkyrevr" method="POST">
-                    <label class="sr-only" for="email">email input</label>
-                    <input type="email" name="email" id="email" placeholder="email">
+    
+            <form class="form-container" action="https://formspree.io/f/xwkyrevr" method="POST">
+                <ul>
+                    <li>
+                        <label class="sr-only" for="email">email input</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </li>
 
-                    <label class="sr-only" for="message">message input</label>
-                    <textarea id="message" name="message" placeholder="message" style="height: 80px"></textarea>
-                    
-                    <label class="sr-only" for="submit">submit button</label>
-                    <input id="submit" type="submit" value="submit">
+                    <li>
+                        <label class="sr-only" for="message">message input</label>
+                        <textarea id="message" name="message" style="height: 80px">type your message here...</textarea>
+                    </li>
 
-                </form>
-            </div>
+                    <li>
+                        <label class="sr-only" for="submit">submit button</label>
+                        <input id="submit" type="submit" value="submit">
+                    </li>
+                </ul>
+            </form>
+
         </section>
     </main>
-
 </body>
 </html>
