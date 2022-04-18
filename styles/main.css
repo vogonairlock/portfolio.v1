@@ -461,6 +461,10 @@ body.contact {
   text-shadow: none;
 }
 
+ul.contact-form {
+  list-style: none;
+}
+
 .form-container input[type=email], textarea {
   display: block;
   width: 80vw;
@@ -471,9 +475,14 @@ body.contact {
   padding-bottom: 10px;
   border-radius: 5px;
   border: 0.4px solid #dfdfdf;
-  letter-spacing: 0.1em;
   background-color: #ffffffe8;
   box-shadow: 1px 1px 1px #c9c9c9e8; 
+  color: #3b3b3b;
+  opacity: 1; 
+  letter-spacing: 0;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -485,7 +494,7 @@ body.contact {
   font-weight: 500;
 }
 
-.form-container textarea:focus::placeholder {
+textarea:focus {
   color: transparent;
 }
 
@@ -493,7 +502,7 @@ body.contact {
   color: transparent;
 }
 
-.form-container input[type=submit] {
+button#submit {
   display: block;
   width: 80vw;
   padding: 10px 30px;
@@ -507,7 +516,7 @@ body.contact {
   color: #3b3b3b;
   text-decoration: none;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 500;
 }
 
@@ -736,15 +745,22 @@ body.contact {
     padding-left: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
+    text-align: center;
+    color: #3b3b3b;
+    opacity: 1; 
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
   }
 
 
-  .form-container input[type=submit] {
+  button#submit {
     width: 200px;
     margin: 25px auto auto auto;
     padding: 10px 30px;
     margin-top: 20px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 700;
   }
 
@@ -1076,14 +1092,14 @@ body.contact {
     font-size: 0.9em;
   }
   
-  .form-container input[type=submit] {
+  button#submit {
     width: 200px;
     margin: 25px auto auto auto;
     color: #666666;
   }
 
 
-  .form-container input[type=submit]:hover {
+  button#submit:hover {
     display: block;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.199); 
   }
