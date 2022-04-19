@@ -23,7 +23,7 @@ I have included the .sr-only (screen reader only) class throughout my HTML and w
 my reset.css files in order to hide and display elements as appropriate for screen readers, <br>
 and went through the entire website myself using a screen reader on both mobile and <br>
 desktop and tailored certain elements to read appropriately. In addition, I have included <br>
-reduced-animation media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>)'s Modern CSS Reset.
+reduced-animation media queries (courtesy of <a href="https://github.com/hankchizljaw/modern-css-reset">hankchizljaw</a>'s Modern CSS Reset).
 <br>
 <br>
 <br>
