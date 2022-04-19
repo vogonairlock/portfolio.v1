@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #dbdfd7;
+  background-color: #ececec;
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   text-align: justify;
@@ -61,11 +61,10 @@ a:hover {
 a.social-link {
   padding: 0 20px;
   font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(31, 31, 31);
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 
@@ -280,9 +279,6 @@ span:nth-child(3) {
 
 /* about: styling */
 
-body.about {
-  background-color: #000000;
-}
 
 #about-container {
   display: flex;
@@ -308,13 +304,12 @@ body.about {
   margin: 80px auto 0 auto;
   image-rendering: auto;
   border-radius: 50%;
-  filter: saturate(0%);
 }
 
 .about-text {
   text-align: center;
   padding: 0 10px 0 10px;
-  color: #ffffff;
+  color: #292929;
   line-height: 1.1em;
 }
 
@@ -455,7 +450,6 @@ body.contact {
   color: #292929;
   padding-top: 5px;
   padding-bottom: 20px;
-  text-shadow: none;
 }
 
 #form-container {
@@ -927,11 +921,11 @@ button#submit {
   /* about: styling */
 
   .about a#logo {
-    color: #ffffff;
+    color: #292929;
   }
 
   .about .nav-container a {
-    color: #ffffff;
+    color: #292929;
   }
 
   #about-container {
@@ -946,7 +940,7 @@ button#submit {
     margin: 0 auto;
     padding-bottom: 20px;
     line-height: 1em;
-    color: #ffffff;
+    color: #292929;
     font-size: 5em;
   }
 
@@ -960,7 +954,6 @@ button#submit {
     margin-bottom: 0;
     image-rendering: auto;
     border-radius: 50%;
-    filter: saturate(0%);
   }
 
   .about-text {
@@ -968,7 +961,8 @@ button#submit {
   }
 
   .about a.social-link {
-    color: #ffffff;
+    padding-top: 5px;
+    color: #292929;
   }
 
 
