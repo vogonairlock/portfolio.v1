@@ -1,7 +1,5 @@
-
 // Displays mobile navigation menu when the hamburger menu is clicked
 function trigger() {
-  const header = document.getElementById('heading')
   const nav = document.getElementById('primary-nav');
   const icon = document.getElementById('icon');
   const logo = document.getElementById('logo');
@@ -17,7 +15,7 @@ function trigger() {
   }
 }
 
-// Creates smooth-scrolling effect 
+// Creates smooth-scrolling effect
 const links = document.querySelector('body');
 
 for (const link of links) {
@@ -29,7 +27,7 @@ function clickHandler(e) {
   const href = this.getAttribute('href');
 
   document.querySelector(href).scrollIntoView({
-    behavior: 'smooth'
+    behavior: 'smooth',
   });
 }
 
