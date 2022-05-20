@@ -944,7 +944,7 @@ span:nth-child(3) {
     height: 200px;
     margin-top: 0;
     margin-bottom: 0;
-    image-rendering: crisp-edges;
+    image-rendering: auto;
     border-radius: 50%;
   }
 
