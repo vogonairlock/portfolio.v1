@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
@@ -13,27 +13,27 @@
       rel="stylesheet">
     <title>zazcdev.</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.PNG">
-    <script src="./scripts/index.js"></script>
+    <script src="index.js"></script>
 </head>
 
 
 <body class="home">
-    <header class="flex">
+    <header>
         <nav class="main-header">   
            <div class="logo-container">
                 <div class="sr-only"><a href="#landing">skip to main content</a></div>
-                <a href="https://zazcdev.github.io/webportfolio" id="logo">
-                   <div class="sr-only"><h1>website title: zaz c</h1></div>
-                   <h1 aria-hidden="true">z.</h1>
-               </a>
-           </div>
-           
-           <ul id="primary-nav" class="nav-container moz-nav">
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/">home</a></li>
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/about.html">about</a></li>
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/portfolio.html">portfolio</a></li>
-                <li><a class="nav1" href="https://zazcdev.github.io/webportfolio/contact.html">contact</a></li>
-            </ul>
+                <a href="https://zazc.dev" id="logo">
+                    <div class="sr-only"><h1>website title: zaz c</h1></div>
+                    <h1 aria-hidden="true">z.</h1>
+                </a>
+            </div>
+            
+            <ul id="primary-nav" class="nav-container moz-nav">
+                 <li><a class="nav1" href="https://zazc.dev/">home</a></li>
+                 <li><a class="nav1" href="https://zazc.dev/about">about</a></li>
+                 <li><a class="nav1" href="https://zazc.dev/portfolio">portfolio</a></li>
+                 <li><a class="nav1" href="https://zazc.dev/contact">contact</a></li>
+             </ul>
        
            
            <a href="javascript:void(0);" id="mobile-toggle" class="menu-icon" onclick="trigger()">
@@ -42,17 +42,14 @@
        </nav>
     </header>
 
-    <main class="flex">
+    <main>
         <section id="landing">
                     <div class="landing-cta">
-                        <h2 class="landing-heading">artistry in development.</h2>
+                        <h2 class="landing-heading">Eliza</h2>
 
                         <div class="landing-subheading"> 
-                            <span>empathy</span>
-                            <span>in</span>
-                            <span>design.</span>
+                            <span>web developer & designer</span>
                         </div>
-
                     </div>
 
                     <div class="link-box button">
