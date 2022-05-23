@@ -1033,16 +1033,23 @@ span:nth-child(3) {
 
   /* portfolio: styling */
   .portfolio .main-header {
-    background-image: url(./assets/img/background2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 50px;
+    background-image: none;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+    position: fixed;
   }
   
   .portfolio .nav-container {
-    background-color: transparent;
+    background-image: none;
+    margin: 0 auto;
+    padding-top: 0;
+    width: 85%;
+    height: 100vh;
   }
 
   #portfolio-intro {
@@ -1052,8 +1059,7 @@ span:nth-child(3) {
     align-items: center;
     width: 100%;
     height: 40%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 140px auto;
     box-sizing: border-box;
   }
 
