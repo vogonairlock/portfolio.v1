@@ -9,7 +9,9 @@ No frameworks used, just the plain old fundamentals. <br>
 <br> 
 <br> 
 As of [26/5/2022], this portfolio is still a work in progress. <br>
-Currently building: 
+<br>
+Currently working on: 
+<br>
 <ul>
   <li>blog website for client </li>
   <li>e-commerce (React) project </li>
