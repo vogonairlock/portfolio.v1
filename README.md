@@ -1,15 +1,20 @@
 <div id="top"></div>
 <div align="center">
   
-<h1>ZAZCDEV: <a href="https://zazcdev.github.io/webportfolio/">Web Portfolio</a></h1>
+<h1>ZAZCDEV: <a href="https://zazc.dev">Web Portfolio</a></h1>
 <br>
 This is a web portfolio I built for myself using HTML, CSS, and JavaScript. <br>
 No frameworks used, just the plain old fundamentals. <br>
 <br>  
 <br> 
 <br> 
-As of [11/4/2022], this portfolio is still a work in progress. <br> 
-(I currently have no projects to display apart from the portfolio itself)
+As of [26/5/2022], this portfolio is still a work in progress. <br>
+Currently building: 
+<ul>
+  <li>blog website for client </li>
+  <li>e-commerce (React) project </li>
+</ul> 
+
 <br>
 <br>
 <br>
@@ -38,16 +43,5 @@ LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a>
 <br>
 <br>
 
-<h2>Credits</h2>
-
-<br>
-Mobile home page background: <a href="https://unsplash.com/@enka80">@enka80</a> via Unsplash.
-<br>
-<br>
-
-reset.css file: <a href="https://github.com/hankchizljaw/modern-css-reset">@hankchizljaw</a>
-<br>
-<br>
-<br>
 (<a href="#top">back to top</a>)
 </div>
