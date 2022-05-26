@@ -1,5 +1,5 @@
 <div id="top"></div>
-<div align="center">
+
   
 <h1>ZAZCDEV: <a href="https://zazc.dev">Web Portfolio</a></h1>
 <br>
@@ -46,4 +46,4 @@ LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a>
 <br>
 
 (<a href="#top">back to top</a>)
-</div>
+
