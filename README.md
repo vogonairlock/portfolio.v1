@@ -7,8 +7,7 @@ This is a web portfolio I built for myself using HTML, CSS, and JavaScript. <br>
 No frameworks used, just the plain old fundamentals. <br>
 <br>  
 <br> 
-<br> 
-As of [26/5/2022], this portfolio is still a work in progress. <br>
+<i>As of [26/5/2022], this portfolio is still a work in progress.</i> <br>
 <br>
 <strong>Currently working on:</strong>
 <br>
