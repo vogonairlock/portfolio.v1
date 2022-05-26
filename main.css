@@ -34,7 +34,7 @@ body {
   font-size: 0.7em;
   line-height: 1em;
   text-align: justify;
-  background-image: url(./assets/img/background2.avif);
+  background-image: url(./assets/img/background2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,7 +247,7 @@ ul.contact-form {
 
 .nav-container {
   background-color: #ac9d8c;
-  background-image: url(./assets/img/background2.avif);
+  background-image: url(./assets/img/background2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,7 +353,7 @@ main.flex-x {
 
 /* -- PORTFOLIO PAGE -- */
 .portfolio .main-header {
-  background-image: url(./assets/img/portheader.avif);
+  background-image: url(./assets/img/portheader.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

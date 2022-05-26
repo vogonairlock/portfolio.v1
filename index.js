@@ -1,3 +1,24 @@
+
+import imagemin from 'imagemin';
+import imageminJpegtran from 'imagemin-jpegtran';
+import imageminPngquant from 'imagemin-pngquant';
+
+const files = await imagemin(['img/*.{jpg,png}'], {
+	destination: 'assets/img',
+	plugins: [
+		imageminJpegtran(),
+		imageminPngquant({
+			quality: [0.6, 0.8]
+		})
+	]
+});
+
+console.log(files);
+//=> [{data: <Buffer 89 50 4e …>, destinationPath: 'build/images/foo.jpg'}, …]
+
+
+
+
 // Displays mobile navigation menu when the hamburger menu is clicked
 function trigger() {
   const nav = document.getElementById('primary-nav');
@@ -14,21 +35,3 @@ function trigger() {
     logo.style.display = 'flex';
   }
 }
-
-// Creates smooth-scrolling effect
-const links = document.querySelector('body');
-
-for (const link of links) {
-  link.addEventListener('click', clickHandler);
-}
-
-function clickHandler(e) {
-  e.preventDefault();
-  const href = this.getAttribute('href');
-
-  document.querySelector(href).scrollIntoView({
-    behavior: 'smooth',
-  });
-}
-
-
