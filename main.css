@@ -33,6 +33,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 
@@ -363,7 +364,7 @@ main.flex-x {
   background-image: url(./assets/img/ting.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-bottom: 100px;
 }
 
@@ -599,18 +600,14 @@ span:nth-child(3) {
 
   /* primary header and nav */
   .main-header {
-    width: 90%;
+    width: 100%;
     height: 10%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    padding: 30px 20px 20px 30px;
-  }
-
-  .portfolio .main-header {
     position: fixed;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
   }
 
   .nav-container {
@@ -623,7 +620,7 @@ span:nth-child(3) {
     margin: 0;
     width: 100%;
     height: 15%;
-    padding-left: 10px;
+    padding: 0 15px;
   }
 
   .home .nav-container {
@@ -658,8 +655,6 @@ span:nth-child(3) {
   }
 
   a#logo {
-    width: 50%;
-    height: 35%;
     padding-top: 0;
     padding-left: 0;
     font-size: 4em;
