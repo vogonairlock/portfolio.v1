@@ -41,6 +41,7 @@ body.portfolio {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
 }
 
 
@@ -366,11 +367,11 @@ main.flex-x {
 
 /* -- PORTFOLIO PAGE -- */
 .portfolio .main-header {
-  background-image: url(./assets/img/portheader.png);
+  background-image: url(./assets/img/ting.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 70px;
+  background-size: 100%;
+  padding-bottom: 100px;
 }
 
 #portfolio-intro {
@@ -379,9 +380,8 @@ main.flex-x {
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 100%;
   box-sizing: border-box;
-  margin: 150px auto 250px;
+  margin: 170px auto 250px auto;
   padding: 0;
   background-image: none;
   overflow-x: hidden;
@@ -410,7 +410,7 @@ main.flex-x {
   height: 100vh;
   width: 95%;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .card-container {
