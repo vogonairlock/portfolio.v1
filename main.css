@@ -33,9 +33,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
+body.portfolio {
+  background-image: url(./assets/img/background2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 
 
@@ -829,11 +835,6 @@ span:nth-child(3) {
 /* desktop max-width: none */
 
 @media (min-width: 1030px) {
-  body {
-    width: 95vw;
-    height: 100vh;
-  }
-
 
   .main-header {
     height: 30px;
