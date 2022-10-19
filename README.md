@@ -8,7 +8,7 @@ No frameworks used, just the plain old fundamentals. <br>
 <br> 
 
 <blockquote>
-  <i>As of [26/5/2022], this portfolio is still a work in progress.</i><br>
+  <i>As of [19/10/2022] this portfolio is in the process of a complete and total overhaul as main.css is an especially gigantic (truly) mess.</i><br>
   <br>
   
   <strong>Currently working on:</strong><br>
@@ -37,7 +37,6 @@ reduced-animation media queries (courtesy of <a href="https://github.com/hankchi
 <h2>Contact</h2><br>
 
 Email: zazcdev@gmail.com<br>
-LinkedIn: <a href="https://www.linkedin.com/in/zazcdev/">@zazcdev</a><br>
 <br>
 <br>
 
