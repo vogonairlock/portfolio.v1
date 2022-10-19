@@ -10,12 +10,6 @@ No frameworks used, just the plain old fundamentals. <br>
 <blockquote>
   <i>As of [19/10/2022] this portfolio is in the process of a complete and total overhaul as main.css is an especially gigantic (truly) mess.</i><br>
   <br>
-  
-  <strong>Currently working on:</strong><br>
-  <ul>
-    <li>blog website for client </li>
-    <li>e-commerce (React) project </li>
-  </ul>   
 </blockquote>
 <br>
 <br>
