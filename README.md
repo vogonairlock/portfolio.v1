@@ -1,6 +1,7 @@
 <div id="top"></div>
 
-<h1>ZAZCDEV: <a href="https://zazc.dev">Web Portfolio</a></h1><br>
+<h1>ZAZCDEV: <a href="https://vogonairlock.github.io/portfolio.v1/">Web Portfolio</a></h1><br>
+
 
 This is a web portfolio I built for myself using HTML, CSS, and JavaScript. <br>
 No frameworks used, just the plain old fundamentals. <br>
